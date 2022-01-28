@@ -1,0 +1,193 @@
+    @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+    
+    h1,
+    h2,
+    h3 h4 {
+        font-weight: inherit;
+        font-size: inherit;
+    }
+    
+    .wrapper {
+        max-width: 1440px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    ._container {
+        max-width: 1160px;
+        margin: auto;
+    }
+    
+    .main-block_image {
+        background-color: rgba(243, 243, 243, 0.55);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        z-index: -1;
+    }
+    /*.main-block_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+*/
+    
+    body {
+        font-family: Hind Siliguri;
+        height: 100%;
+    }
+    
+    .header {
+        width: 100%;
+    }
+    
+    .header_logo {
+        display: inline-block;
+        margin-top: 25px;
+        font-size: 17px;
+        font-weight: bold;
+        line-height: 28px;
+        width: 83px;
+    }
+    
+    .header_menu {
+        display: inline-block;
+        margin: 0px 0px 0px 622px;
+    }
+    
+    @media (max-width: 992px) {
+        .header_menu {
+            margin: 0px 0px 0px 80px;
+        }
+    }
+    
+    @media (max-width:767px) {
+        .header_menu {
+            margin: 0px 0px 0px 40px;
+        }
+    }
+    
+    .menu_list {
+        display: inline-block;
+    }
+    /*.menu_item:not(:last-child) {
+    margin: 0px 40px 0px 0px;
+}
+*/
+    
+    .menu_link {
+        color: #4D4949;
+        line-height: 25px;
+        font-size: 15px;
+    }
+    
+    a {
+        color: #4D4C49;
+        text-decoration: none;
+    }
+    
+    li {
+        height: 25px;
+        list-style-type: none;
+        display: inline-block;
+    }
+    /*-----PAGE------------------------------------------------------------------------------*/
+    
+    .page {
+        padding: 100px 0px 206px 0px;
+    }
+    
+    .main-block_body {
+        max-width: 660px;
+    }
+    
+    .main-block_title {
+        margin-bottom: 22px;
+        font-size: 28px;
+        line-height: 37px;
+        font-weight: 600;
+    }
+    
+    .main-block_text {
+        color: #4D4949;
+        line-height: 26px;
+        font-size: 17px;
+    }
+    
+    .main-block_btn {
+        margin-top: 22px;
+        display: flex;
+        text-align: center;
+        line-height: 25px;
+    }
+    
+    .main-block_btn_1 {
+        padding: 10px 26px;
+        color: #FFFFFF;
+        border-radius: 5px;
+        background-color: #4D4C49;
+    }
+    
+    .main-block_btn_2 {
+        padding: 10px 26px;
+        color: #4D4949;
+        border: 1px solid #4D4949;
+        border-radius: 5px;
+        margin-left: 25px;
+    }
+    
+    .recrangle {
+        height: 184px;
+        width: 260px;
+    }
+    
+    .recrangle_1 {
+        position: relative;
+        height: 184px;
+        width: 260px;
+        border-radius: 8px;
+        background: linear-gradient(108.56deg, rgba(230, 246, 65, 0.5) 0%, rgba(41, 252, 154, 0.5) 100%);
+        overflow: hidden;
+    }
+    
+    .recrangle_1:before {
+        content: "";
+        position: absolute;
+        background-color: white;
+        border-radius: 50%;
+        border-radius: 8px;
+        width: 70px;
+        height: 70px;
+        top: -20px;
+        right: -20px;
+    }
+    
+    .rectangle_icon_1 {}
+    
+    .recrangle_icon_1:after {
+        content: "";
+        background-image: url(..//icon/a-icon-typography.svg);
+        background-size: 50px 50px;
+        height: 184px;
+        width: 260px;
+        background-position: center;
+    }
+    
+    .rectangle_icon_1 {}
+    
+    .recrangle_2 {
+        background-color: #B0D1FF;
+        background: linear-gradient(236.77deg, rgba(247, 247, 247, 0.5) 0%, rgba(35, 86, 255, 0.5) 100%)
+    }
+    
+    .recrangle_3 {
+        background-color: #FFB0B0;
+        background: linear-gradient(236.42deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 9, 9, 0.5) 100%)
+    }
